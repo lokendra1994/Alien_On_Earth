@@ -1,37 +1,49 @@
 class Alien{
-	private String Code_Name;
-	private String Blood_Color;
-	private Integer No_Of_Antennas;
-	private Integer No_Of_Legs;
-	private String Home_Planet;
-	public String getCodeName(){
-		return Code_Name;
-	}
-	public String getBloodColor(){
-		return Blood_Color;
-	}
-	public Integer getNoOfAntennas(){
-		return No_Of_Antennas;
-	}
-	public Integer getNoOfLegs(){
-		return No_Of_Legs;
-	}
-	public String getHomePlanet(){
-		return Home_Planet;
-	}
+
+	private String CodeName;
+	private String BloodColor;
+	private Integer NoOfAntennas;
+	private Integer NoOfLegs;
+	private String HomePlanet;
+	
 	public void setCodeName(String x){
-		Code_Name = x;
+		CodeName = x;
 	}
+	
 	public void setBloodColor(String x){
-		Blood_Color = x;
+		BloodColor = x;
 	}
+	
 	public void setNoOfAntennas(Integer x){
-		No_Of_Antennas = x;
+		NoOfAntennas = x;
 	}
+	
 	public void setNoOfLegs(Integer x){
-		No_Of_Legs = x;
+		NoOfLegs = x;
 	}
+	
 	public void setHomePlanet(String x){
-		Home_Planet = x;
+		HomePlanet = x;
 	}
+	
+	public String getCodeName(){
+		return CodeName;
+	}
+	
+	public String getBloodColor(){
+		return BloodColor;
+	}
+	
+	public Integer getNoOfAntennas(){
+		return NoOfAntennas;
+	}
+	
+	public Integer getNoOfLegs(){
+		return NoOfLegs;
+	}
+	
+	public String getHomePlanet(){
+		return HomePlanet;
+	}
+	
 }
